@@ -10,53 +10,48 @@
   <title>CSS Meme slider</title>
 </head>
 <body>
-  <div class="wrapper">
-    <div class="slider">
-      <div class="slider-nav">
-        
-        <!-- -->
-        <label for="s1" class="slider-nav-item"></label>
-        <label for="s2" class="slider-nav-item"></label>
-        <label for="s3" class="slider-nav-item"></label>
-        <label for="s4" class="slider-nav-item"></label>
-        <label for="s5" class="slider-nav-item"></label>
+  <main class="mem-slider">
+    <div id="mem-container" class="mem-slider-container">
+      <div class="header">
+        CSS Mem Slider
       </div>
-      <div class="slider-items">
-        
-        <input type="radio" name="s" id="s1" checked>
-        <input type="radio" name="s" id="s2">
-        <input type="radio" name="s" id="s3">
-        <input type="radio" name="s" id="s4">
-        <input type="radio" name="s" id="s5">
-        
+      <input type="radio" name="radio" id="r-1" checked>
+      <input type="radio" name="radio" id="r-2">
+      <input type="radio" name="radio" id="r-3">
+      <input type="radio" name="radio" id="r-4">
+      <input type="radio" name="radio" id="r-5">
 
-        <div class="item s1">
-          <img src="./assets/1.jpg" alt="img1">
-          <p>"В этой жизни ты либо волк, либо не волк"</p>
+      <div class="image-window">
+        <div class="images-wrapper">
+          <img class="illustration" src="assets/1.jpg" alt="image-1" id="current-illustration">
+          <img class="illustration" src="assets/2.jpg" alt="image-2">
+          <img class="illustration" src="assets/3.jpg" alt="image-3">
+          <img class="illustration" src="assets/4.jpg" alt="image-4">
+          <img class="illustration" src="assets/5.jpg" alt="image-5">
         </div>
-        <div class="item s2">
-          <img src="./assets/2.jpg" alt="img2">
-          <p>"Лучше иметь друга, чем друг друга"</p>
-        </div>
-        <div class="item s3">
-          <img src="./assets/3.jpg" alt="img3">
-          <p>"То, что безсмысленно, то не имеет смысла"</p>
-        </div>
-        <div class="item s4">
-          <img src="./assets/4.jpg" alt="img4">
-          <p>"Волк слабее санитара, но в дурке он не работает"</p>
-        </div>
-        <div class="item s5">
-          <img src="./assets/5.jpg" alt="img5">
-          <p>"Лучше быть последним-первым, чем первым-последним"</p>
+      </div>
+
+      <div class="phrases-radio">
+        <div class="phrases-radio-container">
+          <div class="phrases-wrapper">
+            <div class="phrases" id="p-1">"В этой жизни ты либо волк, либо не волк"</div>
+            <div class="phrases" id="p-2">"Лучше иметь друга, чем друг друга"</div>
+            <div class="phrases" id="p-3">"То, что безсмысленно, то не имеет смысла"</div>
+            <div class="phrases" id="p-4">"Волк слабее санитара, но в дурке он не работает"</div>
+            <div class="phrases" id="p-5">"Лучше быть последним-первым, чем первым-последним"</div>
+          </div>
         </div>
 
-        
-      </div>
-      <div class="slider-radio">
-        
+        <div class="radio-wrapper">
+          <label for="r1" class="radio-label" id="l-1"></label>
+          <label for="r1" class="radio-label" id="l-2"></label>
+          <label for="r2" class="radio-label" id="l-3"></label>
+          <label for="r3" class="radio-label" id="l-4"></label>
+          <label for="r4" class="radio-label" id="l-5"></label>
+        </div>
+
       </div>
     </div>
-  </div>
+  </main>
 </body>
 </html>
