@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <title>CSS Meme Slider</title>
+</head>
+<body>
+  <main class="slider-container">
+    <div class="mem-slider-container" id="mem-container">
+      <div class="slider-header">CSS Meme Slider</div>
+      
+      <input type="radio" name="radio" id="r-1" checked>
+      <input type="radio" name="radio" id="r-2">
+      <input type="radio" name="radio" id="r-3">
+      <input type="radio" name="radio" id="r-4">
+      <input type="radio" name="radio" id="r-5">
+
+      <div class="image-window">        
+        <div class="images-wrapper">          
+          <img class="wrapper-item" id="current-wrapper-item" src="assets/1.jpg">          
+          <img class="wrapper-item" src="assets/2.jpg">
+          <img class="wrapper-item" src="assets/3.jpg">
+          <img class="wrapper-item" src="assets/4.jpg">
+          <img class="wrapper-item" src="assets/5.jpg">
+          <img class="wrapper-item" src="assets/5.jpg">
+        </div>
+      </div>             
+
+
+      <div class="text-radio-wrapper">        
+        <div class="mems-window">          
+          <div class="mems-wrapper">
+            <div class="text" id="text-1">"В этой жизни ты либо волк, либо не волк"</div>
+            <div class="text" id="text-2">"Лучше иметь друга, чем друг друга"</div>
+            <div class="text" id="text-3">"То, что безсмысленно, то не имеет смысла"</div>
+            <div class="text" id="text-4">"Волк слабее санитара, <br> но в дурке он не работает"</div>
+            <div class="text" id="text-5">"Лучше быть последним-первым, <br> чем первым-последним"</div>
+          </div>
+        </div>
+
+        <div class="slider-text">
+          <label for="r-1" class="bullet" id="bullet-1">
+          </label>
+          <label for="r-2" class="bullet" id="bullet-2">
+          </label>
+          <label for="r-3" class="bullet" id="bullet-3">
+          </label>
+          <label for="r-4" class="bullet" id="bullet-4">
+          </label>
+          <label for="r-5" class="bullet" id="bullet-5">
+          </label>
+        </div>
+      </div>
+    </div>   
+         
+  </main>
+</body>
+</html>
